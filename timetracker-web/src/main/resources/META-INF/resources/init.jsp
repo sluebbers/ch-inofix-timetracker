@@ -15,6 +15,7 @@
 <%@taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui"%>
 <%@taglib uri="http://liferay.com/tld/util" prefix="liferay-util"%>
 
+<%@page import="ch.inofix.timetracker.constants.SearchColumns"%>
 <%@page import="ch.inofix.timetracker.exception.NoSuchTaskRecordException"%>
 <%@page import="ch.inofix.timetracker.model.TaskRecord"%>
 <%@page import="ch.inofix.timetracker.service.permission.TaskRecordPermission"%>

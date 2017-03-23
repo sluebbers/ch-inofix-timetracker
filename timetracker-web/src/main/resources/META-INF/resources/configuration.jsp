@@ -17,7 +17,7 @@
         maxLength = portletPreferences.getValue("max-length", timetrackerConfiguration.maxLength());
         timeFormat = portletPreferences.getValue("time-format", timetrackerConfiguration.timeFormat());
     }
-    String allColumns = new String ("task-record-id,work-package,start-date,duration,create-date,modified-date,user-name,status,description,end-date,ticket-url");
+    String allColumns = SearchColumns.TASK_RECORD_SEARCH_COLUMNS;
     		
 %>
 
